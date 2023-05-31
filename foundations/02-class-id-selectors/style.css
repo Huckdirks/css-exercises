@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+.black-red {
+    color: black;
+    background-color: red;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 32px;
+}
+
+#four {
+    color: black;
+    background-color: green;
+}
