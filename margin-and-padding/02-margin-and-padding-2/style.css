@@ -7,21 +7,36 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* auto sets it to the default value (close to the top for first value (top & bottom), centered for the second value (left & right)) */
+  /* margin: auto auto; */
+  padding: 8px;
 }
 
 .title {
-  background: #e3f4ff;
+  background: blue;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
-  background: #e3f4ff;
+  background: blue;
+  /* margin-bottom: 8px; */
+  margin: 8px 0;
+  padding: 16px 8px;
+  /* First is top & bottom, second is left & right */
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: blue;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: auto;
 }
